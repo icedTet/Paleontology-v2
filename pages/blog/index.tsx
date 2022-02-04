@@ -1,4 +1,3 @@
 export const BlogPage = () => {
-  return <>Not done yet lol</>
-
-}
+  return <div>Not done yet lol</div>;
+};
