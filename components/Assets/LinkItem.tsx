@@ -27,7 +27,7 @@ export const LinkItem = (props: {
   return (
     <Link href={props.path}>
       <div
-        className={`hoverablecard font-medium font-ubuntu text-base group transition-all duration-500 cursor-pointer w-full rounded-lg dark:bg-gray-750  bg-gray-100 p-2 flex flex-row items-center justify-center gap-4 relative overflow-hidden`}
+        className={`hoverablecard font-medium font-ubuntu text-base group transition-all duration-500 cursor-pointer w-full rounded-lg dark:bg-gray-750  bg-gray-100 p-2 flex flex-row items-center justify-center gap-4 relative overflow-hidden flex-shrink-0`}
       >
         <div
           className={`w-full h-full absolute top-0 left-0 bg-gradient-to-r from-rose-700 to-pink-600 opacity-0 dark:group-hover:opacity-30 group-hover:opacity-60 z-10 transition-all`}
