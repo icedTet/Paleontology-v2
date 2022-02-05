@@ -4,7 +4,7 @@ import { ChevronDownIcon } from "@heroicons/react/outline";
 import { NavbarItem } from "./NavbarItems/NavbarItem";
 export const Navbar = () => {
   return (
-    <div className={`flex flex-row w-full p-4 gap-8 justify-between`}>
+    <div className={`flex flex-row w-full p-4 gap-8 justify-between sticky top-0`}>
       <Link href="/">
         <div className="flex flex-row items-center gap-4 group cursor-pointer">
           <LambdaSVG
@@ -21,7 +21,7 @@ export const Navbar = () => {
       </Link>
 
       <div
-        className={`flex flex-row justify-end items-center gap-8 pr-8 w-5/12`}
+        className={`flex flex-row justify-end items-center gap-8 pr-8 min-w-5/12 whitespace-nowrap`}
       >
         <div className={`relative group`}>
           <div className="flex flex-row items-center gap-4 py-2">
@@ -35,7 +35,7 @@ export const Navbar = () => {
           <div
             className={`absolute bottom-0 translate-y-full mt-4 p-4 left-1/2 -translate-x-1/2 scale-0 group-hover:scale-100 origin-top w-64 dark:bg-gray-750 transition-all rounded-xl shadow-md gap-4 flex flex-col`}
           >
-            <NavbarItem path="/classes/APCSA" label="AP CS A" />
+            <NavbarItem path="/classes/apcsa" label="AP CS A" />
             <NavbarItem path="/classes/capstone" label="CS Capstone" />
             <NavbarItem path="/classes/foop" label="FOOP" />
           </div>
@@ -58,7 +58,7 @@ export const Navbar = () => {
             </span>
           </div>
         </Link>
-        
+
         <Link href={"https://girlstechclub.wixsite.com/gunngirlstech/outreach"}>
           <div className="flex flex-row items-center gap-4 py-2 dark:hover:bg-gray-750 px-4 rounded-lg transition-all">
             <span

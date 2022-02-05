@@ -8,7 +8,7 @@ export const LambdaSVG = (
     style={props.style}
   >
     <path
-      className={`fill-transparent ${!props.noAnim && `animate-lambdaThingMedium`}`}
+      className={`fill-transparent ${!props.noAnim && `animate-lambdaThingFast`}`}
       id="lambda"
       style={{
         strokeDasharray: props.noAnim ? 0 : 383.6472473144531,

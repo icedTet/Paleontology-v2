@@ -143,7 +143,7 @@ module.exports = {
         shake: 'shake 1s cubic-bezier(.36,.07,.19,.97) infinite',
         gradient: 'gradient 1s cubic-bezier(.36,.07,.19,.97) infinite',
         'gradient-slow': 'gradient 3s linear infinite',
-        'lambdaThingFast': 'lambdaThing 1s infinite',
+        'lambdaThingFast': 'lambdaThingForwards 1s forwards 0.5s',
         'lambdaThingMedium': 'lambdaThingForwards 1.5s forwards 0.5s',
         'lambdaThingSlow': 'lambdaThing 3s infinite',
         'lambdaThingSlowest': 'lambdaThing 5s infinite',

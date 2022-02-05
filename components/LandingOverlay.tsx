@@ -9,7 +9,7 @@ export const LandingOverlay = () => {
     (async () => {
       const sleep = (ms: number) =>
         new Promise((resolve) => setTimeout(resolve, ms));
-      await sleep(2000);
+      await sleep(1500);
       setActivateAnimations((a) => (a !== 2 ? 1 : a));
       await sleep(1500);
       setActivateAnimations(2);

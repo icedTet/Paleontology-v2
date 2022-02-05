@@ -4,7 +4,8 @@ import { useState, useEffect } from "react";
 import "../utils/nprogress";
 import "nprogress/nprogress.css";
 import { configureColor } from "../utils/nprogress";
-configureColor('rgb(220,38,38)');
+import { Navbar } from "../components/Navbar";
+configureColor("rgb(220,38,38)");
 function MyApp({ Component, pageProps }: AppProps) {
   const [theme, setTheme] = useState("");
   useEffect(() => {
@@ -20,7 +21,8 @@ function MyApp({ Component, pageProps }: AppProps) {
     <div
       className={`flex flex-row ${theme === `dark` && `dark`} w-full h-full `}
     >
-      <div className={`flex flex-grow`}>
+      <div className={`flex flex-grow flex-col dark:bg-gray-800 bg-gray-150 `}>
+        <Navbar />
         <Component {...pageProps} />
       </div>
     </div>
