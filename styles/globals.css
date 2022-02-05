@@ -74,5 +74,5 @@ input:focus {
   display: inline;
 }
 .hoverablecard {
-  @apply shadow-lg dark:hover:shadow-red-500 hover:shadow-red-300 hover:shadow-lg transition-shadow duration-300;
+  @apply shadow-sm dark:hover:shadow-rose-500 hover:shadow-red-300 hover:shadow-md transition-shadow duration-300;
 }
