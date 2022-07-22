@@ -18,7 +18,7 @@ const Home: NextPage = () => {
         className={`w-full h-full flex flex-col gap-8 items-center justify-center`}
       >
         <h1 className={`text-7xl font-black font-montserrat dark:text-gray-50`}>
-          Josh Paley's Web Stuff
+          Josh Paley&apos;s Web Stuff
         </h1>
         <div
           className={`flex flex-row gap-2 text-lg dark:text-gray-400 w-full text-gray-600`}
