@@ -29,7 +29,7 @@ const APCSA: NextPage = () => {
         <span className={`text-lg dark:text-gray-400`}>Epik™ Linkz</span>
         <div className={`flex-grow relative overflow-auto`}>
           <div
-            className={`flex flex-col gap-4 w-full absolute top-0 left-0 h-full p-4`}
+            className={`flex flex-col gap-4 w-full absolute top-0 left-0 h-full p-4 pb-4`}
           >
             <LinkItem
               path=""

@@ -19,7 +19,7 @@ export const LandingOverlay = () => {
   return (
     <>
       <div
-        className={`fixed w-full h-full dark:bg-gray-900 flex flex-row items-center justify-center top-0 left-0 cursor-pointer ${
+        className={`fixed w-full h-full dark:bg-gray-900 bg-gray-50 flex flex-row items-center justify-center top-0 left-0 cursor-pointer ${
           activateAnimations === 1 &&
           `!opacity-0 transition-all duration-1000 pointer-events-none`
         } ${activateAnimations === 2 && `hidden`}  `}
